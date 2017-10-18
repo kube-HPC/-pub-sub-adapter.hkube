@@ -1,0 +1,27 @@
+{
+  "name": "pub-sub-adapter.rf",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "backoff.rf": "^1.0.0",
+    "chai": "^3.5.0",
+    "redis-utils.rf": "^1.0.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "pub-sub"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.rms:RMS-Common/pub-sub-adapter.git"
+  },
+  "author": "RAF",
+  "license": "ISC"
+}
