@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "backoff.rf": "^1.0.0",
+    "backoff.hkube": "^1.0.0",
     "chai": "^3.5.0",
-    "redis-utils.rf": "^1.0.0",
+    "redis-utils.hkube": "^1.0.0",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
