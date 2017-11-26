@@ -1,12 +1,12 @@
 {
-  "name": "pub-sub-adapter.hkube",
+  "name": "@hkube/pub-sub-adapter",
   "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "backoff.hkube": "^1.0.0",
+    "@hkube/backoff": "^1.0.0",
     "chai": "^3.5.0",
-    "redis-utils.hkube": "^1.0.0",
+    "@hkube/redis-utils": "^1.0.0",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
