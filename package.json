@@ -7,13 +7,16 @@
     "@hkube/backoff": "^1.0.0",
     "chai": "^3.5.0",
     "@hkube/redis-utils": "^1.0.0",
-    "uuid": "^3.0.1"
+    "uuid": "^3.0.1",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "chai": "^3.3.0"
   },
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "pub-sub"
@@ -23,5 +26,6 @@
     "url": "git@gitlab.rms:RMS-Common/pub-sub-adapter.git"
   },
   "author": "RAF",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
